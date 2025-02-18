@@ -1,14 +1,16 @@
 ---
-title: "Paper Title Number 1"
+title: "What Knowledge Gets Distilled in Knowledge Distillation?"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+excerpt: 'The teacher can transfer some really cool, hidden properties to the student!'
+venue: 'NeurIPS 2023'
+authors: 'Utkarsh Ojha*, Yuheng Li*, Anirudh Sundara Rajan*, Yingyu Liang, and Yong Jae Lee.
+teaser: '/assets/img/kdist.png'  # Update this path based on your image storage
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+<img src="{{ page.teaser }}" width="250px" align="right" style="border-radius:10px; margin-left:10px;">
+
+### Links  
+- 📄 [Paper](https://arxiv.org/abs/2205.16004)  
+
