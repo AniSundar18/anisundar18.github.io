@@ -11,26 +11,25 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+---
+title: "What Knowledge Gets Distilled in Knowledge Distillation?"
+collection: publications
+category: manuscripts
+permalink: /publication/kdist
+excerpt: "The teacher can transfer some really cool, hidden properties to the student!"
+venue: "NeurIPS 2023"
+teaser: "/assets/img/kdist.png"  # Update this path based on your image storage
+authors: "Utkarsh Ojha*, Yuheng Li*, Anirudh Sundara Rajan*, Yingyu Liang, Yong Jae Lee"
+---
 
+<div style="display: flex; align-items: center; gap: 15px;">
+  <img src="{{ page.teaser }}" width="150px" style="border-radius:10px;">
+  <div>
+    <b>{{ page.title }}</b>  
+    <br> <i>{{ page.venue }}</i>  
+    <br> <b>Authors:</b> {{ page.authors }}  
+  </div>
+</div>
 
-
+### Links  
+- 📄 [Paper](https://arxiv.org/abs/2205.16004)  
