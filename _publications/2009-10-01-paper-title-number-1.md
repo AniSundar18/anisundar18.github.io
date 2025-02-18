@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: "The teacher can transfer some really cool, hidden properties to the student!"
 venue: "NeurIPS 2023"
-teaser: "/assets/img/kdist.png"  # Update this path based on your image storage
+teaser: "/assets/imgs/kdist.png"  # Update this path based on your image storage
 ---
 
 <img src="{{ page.teaser }}" width="250px" align="right" style="border-radius:10px; margin-left:10px;">
