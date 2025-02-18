@@ -22,14 +22,23 @@ teaser: "/assets/img/kdist.png"  # Update this path based on your image storage
 authors: "Utkarsh Ojha*, Yuheng Li*, Anirudh Sundara Rajan*, Yingyu Liang, Yong Jae Lee"
 ---
 
-<div style="display: flex; align-items: center; gap: 15px;">
-  <img src="{{ page.teaser }}" width="150px" style="border-radius:10px;">
-  <div>
-    <b>{{ page.title }}</b>  
-    <br> <i>{{ page.venue }}</i>  
-    <br> <b>Authors:</b> {{ page.authors }}  
-  </div>
-</div>
+<div style="border: 1px solid #ddd; padding: 15px; border-radius: 10px;">
+  <table>
+    <tr>
+      <td><img src="{{ page.teaser }}" width="150px" style="border-radius:10px;"></td>
+      <td style="padding-left: 15px;">
+        <b>{{ page.title }}</b><br>
+        <i>{{ page.venue }}</i><br>
+        <b>Authors:</b> {{ page.authors }}<br>
+        (*Joint first authors*)
+      </td>
+    </tr>
+  </table>
 
-### Links  
-- 📄 [Paper](https://arxiv.org/abs/2205.16004)  
+  <hr style="margin: 10px 0;">
+
+  <p><b>Links:</b></p>
+  <ul>
+    <li>📄 <a href="https://arxiv.org/abs/2205.16004" target="_blank">Paper</a></li>
+  </ul>
+</div>
