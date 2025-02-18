@@ -5,16 +5,20 @@ category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: "The teacher can transfer some really cool, hidden properties to the student!"
 venue: "NeurIPS 2023"
-teaser: "/assets/imgs/kdist.png"  # Update this path based on your image storage
+teaser: "/assets/img/kdist.png"  # Update this path based on your image storage
 ---
 
-<img src="{{ page.teaser }}" width="250px" align="right" style="border-radius:10px; margin-left:10px;">
-
-**Authors:**  
-✦ **Utkarsh Ojha***, **Yuheng Li***, **Anirudh Sundara Rajan***  
-✦ Yingyu Liang, Yong Jae Lee  
-
-(*Joint first authors*)  
+<table>
+  <tr>
+    <td><img src="{{ page.teaser }}" width="150px" style="border-radius:10px;"></td>
+    <td>
+      <b>What Knowledge Gets Distilled in Knowledge Distillation?</b><br>
+      <i>NeurIPS 2023</i><br>
+      <b>Authors:</b> Utkarsh Ojha*, Yuheng Li*, Anirudh Sundara Rajan*, Yingyu Liang, Yong Jae Lee<br>
+      (*Joint first authors*)
+    </td>
+  </tr>
+</table>
 
 ### Links  
 - 📄 [Paper](https://arxiv.org/abs/2205.16004)  
